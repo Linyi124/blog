@@ -1,11 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-  <title>欢迎来到我的博客</title>
+  <title>故事集 - 我的写作空间</title>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #eee;
+    }
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+    .tagline {
+      color: #7f8c8d;
+      font-style: italic;
+      font-size: 1.1em;
+    }
+    .story-list {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .story-item {
+      margin-bottom: 25px;
+      padding-bottom: 25px;
+      border-bottom: 1px solid #ecf0f1;
+    }
+    .story-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+    .story-title {
+      color: #2c3e50;
+      text-decoration: none;
+      font-size: 1.3em;
+      font-weight: bold;
+    }
+    .story-title:hover {
+      color: #3498db;
+    }
+    .story-meta {
+      color: #95a5a6;
+      font-size: 0.9em;
+      margin: 5px 0;
+    }
+    .story-excerpt {
+      color: #555;
+      margin: 10px 0;
+    }
+    .read-more {
+      color: #3498db;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .read-more:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #7f8c8d;
+      font-size: 0.9em;
+    }
+    .categories {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .category-tag {
+      display: inline-block;
+      background: #ecf0f1;
+      padding: 5px 15px;
+      margin: 5px;
+      border-radius: 20px;
+      text-decoration: none;
+      color: #2c3e50;
+      font-size: 0.9em;
+    }
+    .category-tag:hover {
+      background: #3498db;
+      color: white;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello from Linyi124!</h1>
-  <p>这是我的 GitHub Pages 博客。</p>
+  <header>
+    <h1>📚 故事收藏馆</h1>
+    <p class="tagline">用文字记录生活的每一个瞬间</p>
+  </header>
+
+  <div class="categories">
+    <a href="#" class="category-tag">短篇小说</a>
+    <a href="#" class="category-tag">微小说</a>
+    <a href="#" class="category-tag">生活随笔</a>
+    <a href="#" class="category-tag">奇幻想象</a>
+  </div>
+
+  <div class="story-list">
+    <div class="story-item">
+      <a href="#" class="story-title">《雨夜的咖啡馆》</a>
+      <div class="story-meta">2024年1月15日 · 短篇 · 都市</div>
+      <p class="story-excerpt">在那个下着淅淅沥沥小雨的夜晚，街角咖啡馆的灯光格外温暖。我推开门，风铃清脆作响，却没想到会遇见改变我一生的人...</p>
+      <a href="#" class="read-more">继续阅读 →</a>
+    </div>
+
+    <div class="story-item">
+      <a href="#" class="story-title">《山间小屋的记忆》</a>
+      <div class="story-meta">2023年12月3日 · 中篇 · 悬疑</div>
+      <p class="story-excerpt">祖母留下的山间小屋，藏着一段不为人知的往事。每次推开那扇吱呀作响的木门，都能闻到时光的味道，直到我发现阁楼里的旧日记...</p>
+      <a href="#" class="read-more">继续阅读 →</a>
+    </div>
+
+    <div class="story-item">
+      <a href="#" class="story-title">《地铁站的相遇》</a>
+      <div class="story-meta">2023年11月18日 · 微小说 · 爱情</div>
+      <p class="story-excerpt">每天早晨八点十五分，我们在地铁站的同一个位置擦肩而过，直到那天早上的意外停电，让我们的轨迹第一次真正交汇...</p>
+      <a href="#" class="read-more">继续阅读 →</a>
+    </div>
+
+    <div class="story-item">
+      <a href="#" class="story-title">《窗台上的风铃》</a>
+      <div class="story-meta">2023年10月25日 · 随笔 · 回忆</div>
+      <p class="story-excerpt">那个蓝色的玻璃风铃在窗台上挂了整整十年，每当微风拂过，它就会唱起那首只有我记得的歌...</p>
+      <a href="#" class="read-more">继续阅读 →</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2024 故事收藏馆 · 所有故事均为原创</p>
+    <p>欢迎来到我的写作空间，希望这些故事能给你带来温暖的时光</p>
+  </footer>
 </body>
 </html>
